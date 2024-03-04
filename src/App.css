@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  margin: 100px auto 0 auto;
+}
+.title {
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+.todos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 9px;
+  margin-top: 9px;
+}
+.todo {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  box-shadow: 2px 2px 10px 0 #1bc4b5;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+}
+.delete {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+}
+.info{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 50%;
+}
+.btn{
+  color:black;
+  outline: none;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 90px;
+  height: 40px;
+}
